@@ -12,3 +12,13 @@ pyproj
 scikit-learn
 folium
 tqdm
+
+
+geographiclib==2.1
+geopy==2.4.1
+numpy==2.4.6
+pandas==3.0.3
+python-dateutil==2.9.0.post0
+shapely==2.1.2
+six==1.17.0
+tzdata==2026.2
