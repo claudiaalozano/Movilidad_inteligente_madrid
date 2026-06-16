@@ -1,0 +1,12 @@
+pandas
+requests
+lxml
+openpyxl
+beautifulsoup4
+
+geopandas
+osmnx
+networkx
+pyproj
+scikit-learn
+folium
