@@ -18,10 +18,15 @@ Los datos pesados no se almacenan necesariamente en GitHub. En algunos casos se 
 
 ## Estructura del repositorio
 
+## Estructura del repositorio
+
 ```text
 Movilidad_inteligente_madrid/
 │
 ├── ETA Holistico/
+│   ├── ETA.py
+│   ├── Informe.pdf
+│   └── Presentación.pdf
 │
 ├── automatizacion_modelo/
 │   └── pipeline_reentrenamiento.ipynb
@@ -30,8 +35,10 @@ Movilidad_inteligente_madrid/
 │   └── processed/
 │       ├── analisis_componentes.csv
 │       ├── analisis_componentes_reparado.csv
-│       └──mapa_componentes.html
-│              
+│       ├── aristas_reparacion_componentes.csv
+│       ├── mapa_componentes.html
+│       ├── resumen_conectividad_reparacion.csv
+│       └── revision_snapping_medidores.csv
 │
 ├── grafo/
 │   └── grafo_puntos_medidores.ipynb
@@ -43,7 +50,7 @@ Movilidad_inteligente_madrid/
 ├── LICENSE
 ├── requirements.txt
 └── README.md
-```
+'''text
 
 ## Orden de ejecución
 
