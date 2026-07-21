@@ -18,8 +18,6 @@ Los datos pesados no se almacenan necesariamente en GitHub. En algunos casos se 
 
 ## Estructura del repositorio
 
-## Estructura del repositorio
-
 ```text
 Movilidad_inteligente_madrid/
 │
@@ -50,7 +48,7 @@ Movilidad_inteligente_madrid/
 ├── LICENSE
 ├── requirements.txt
 └── README.md
-'''text
+```
 
 ## Orden de ejecución
 
@@ -58,9 +56,9 @@ Movilidad_inteligente_madrid/
 
 Notebook principal:
 
-
+```text
 grafo/grafo_puntos_medidores.ipynb
-
+```
 
 Este notebook realiza los siguientes pasos:
 
