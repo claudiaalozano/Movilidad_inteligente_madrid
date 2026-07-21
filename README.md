@@ -58,9 +58,9 @@ Movilidad_inteligente_madrid/
 
 Notebook principal:
 
-```text
+
 grafo/grafo_puntos_medidores.ipynb
-```
+
 
 Este notebook realiza los siguientes pasos:
 
