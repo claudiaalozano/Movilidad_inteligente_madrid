@@ -1,0 +1,3 @@
+fase,num_componentes,nodos_totales,nodos_componente_principal,pct_componente_principal,aristas_reparacion
+antes_reparacion,26,5072,4787,94.38091482649841,0
+despues_reparacion,21,5072,4860,95.82018927444796,5
