@@ -23,3 +23,7 @@ mapa_velocidades/*.json
 data/
 *.graphml
 *.html
+
+# Cachés y archivos temporales del grafo
+grafo/cache/
+grafo/mapa_temp.html
