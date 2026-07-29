@@ -1,0 +1,26 @@
+name: Prueba de reentrenamiento
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  prueba-entorno:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Descargar repositorio
+        uses: actions/checkout@v4
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.10"
+
+      - name: Comprobar entorno
+        run: |
+          python --version
+          echo "Prueba mínima de automatización ejecutada correctamente"
+          echo "El reentrenamiento real queda pendiente de conectar datos externos, credenciales y almacenamiento."
